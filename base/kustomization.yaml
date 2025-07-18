@@ -4,3 +4,7 @@ resources:
 - rollout.yaml
 - service.yaml
 - preview-service.yaml
+images:
+- name: maverick96k/vote-ui
+  newName: maverick96k/vote-ui
+  newTag: stable-v3
